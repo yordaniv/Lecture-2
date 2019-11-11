@@ -1,0 +1,61 @@
+@import url('variables.css');
+@import url('layout.css');
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+.site {
+    max-width: 60em;
+    margin: 5em auto;
+    max-height: 50em;
+    border: 1px solid var(--yellow-color);
+    display: flex;
+    padding: 1.5em 1.5em;
+}
+
+section ul li h2,
+section ul li p,
+section ul li button {
+    padding-bottom: 1em;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section {
+    padding-right: 2em;
+}
+
+button:hover{
+    background: var(--primary-color);
+    color: var(--yellow-color);
+}
+
+.button:hover,
+.site:hover {
+   color: var(--primary-color);
+}
+
+
+
+section ul li button {
+    border:none;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    width: 6em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    padding-top: 0.6em;
+    font-weight: bold;
+}

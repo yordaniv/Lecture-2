@@ -1,0 +1,29 @@
+@import url('layout.css');
+@import url('variables.css');
+
+* {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: inherit;
+    font: 18px/1.5 Verdana,sans-serif;
+}
+
+}
+h1 {
+font-size: var(--font-size-h1);
+}
+
+h3 {
+    font-size: var(--font-size-h2);
+}
+
+p {
+    font-size: var(--font-size-p);
+}

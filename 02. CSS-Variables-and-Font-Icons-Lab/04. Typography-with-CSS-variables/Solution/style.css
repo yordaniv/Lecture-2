@@ -1,0 +1,21 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('variables.css');
+
+@media screen and ( min-width: 500px ) {
+    html {
+        font-size: var(--font-size-500px);
+    }
+}
+
+@media screen and ( min-width: 700px ) {
+    html {
+        font-size: var(--font-size-700px);
+    }
+}
+
+@media screen and ( min-width: 1600px ) {
+    html {
+        font-size: var(--font-size-1600px);
+    }
+}

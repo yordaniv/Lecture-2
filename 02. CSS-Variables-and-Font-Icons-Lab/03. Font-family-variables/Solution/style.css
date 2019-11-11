@@ -1,0 +1,42 @@
+@import url(layout.css);
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+.site {
+    font-family: var(--font-family-primary);
+    width: 60em;
+    margin: 10em auto;
+}
+
+.site h1 {
+    font-family: var(--font-family-headings);
+    text-align: center;
+    padding-bottom: 1.5em;
+
+}
+
+.site-header p {
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.site-main h2,h3,h4 {
+    font-family: var(--font-family-headings);
+    padding-bottom: 1em;
+}
+
+.site-main p {
+    padding-bottom: 1em;
+}
